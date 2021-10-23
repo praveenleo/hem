@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.headerLeft img{
+    width: 156px;
+    height: 80px;   
+}
+.headerLeft{
+    display: flex;
+    align-items: center;
+    width:15%;
+}
+.headerLeft .material-icons{
+    font-size: 40px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    border:1px solid whitesmoke;
+}
+.headerMiddle{
+    display: flex;
+    align-items: center;
+    width: 45%;
+    background-color: whitesmoke;
+    height: 60px;
+    border-radius: 12px;
+    /* margin: auto; */
+    margin-right: auto;
+}
+.headerMiddle input{
+    border:none;
+    outline: none;
+    background: transparent;
+    padding:10px;
+    font-size:10px;
+    font-size: 17px;
+}
+.headerMiddle .material-icons{
+    font-size: 28px;
+    color: grey;
+    padding-left: 26px;
+
+}
+.headerRight{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 17%;
+}
+.header{
+    justify-content: space-around;
+}
+.headerRight .material-icons{
+    color:grey;
+}
+
+/* meida query starts */
+
+@media only screen and (max-width: 425px) {
+    .headerMiddle input{
+        font-size: 12px;
+    }
+
+  .headerLeft img{
+    width: 68px;
+    height: 61px;
+  }
+}
+
+  @media only screen and (max-width: 320px) {
+    .headerMiddle input{
+        font-size: 9px;
+
+    }
+  }
+
+  @media only screen and (max-width: 1024px) {
+    .headerLeft{
+        width: 19%;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .headerLeft{
+        width: 32%
+
+    }
+  } 
+
+
+
+  /* sidebar starts */
+  .sidebar{
+      display: flex;
+      width:100%;
+  }
+
+  .left{
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    height:560px;
+    background-color:#fff;
+  }
+  .mail{
+   display: flex;
+   align-items: center;
+  }
+ .sideends{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+ .file{
+     display: flex;
+     align-items: center;
+     padding-left:15px;
+     padding-top: 10px;
+     color:grey;
+ }
+ .file p{
+    padding-left: 20px;
+ }
+ .active{
+     background-color: #fcecec;
+     border-top-right-radius: 20px;
+     border-bottom-right-radius: 20px;
+     color:red;
+ }
+ .sideends .one{
+    border-radius: 50%;
+    border: 1px solid gray;
+    color: #fa3c3c;
+    background-color: white;
+    padding: 3px;
+}
+
+
+/* media query starts */
+ 
+@media only screen and (max-width: 1024px) {
+    .left{
+        width: 19%;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .left{
+        width: 30%;
+    }
+}
+.main{
+    
+}
+.mainOne{
+
+}
+.mainOneIconLeft{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.mainicon{
+
+}
+.righticons{
+    
+}
